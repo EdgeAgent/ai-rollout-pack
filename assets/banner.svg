@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="340" viewBox="0 0 1240 340">
+  <rect x="2" y="2" width="1236" height="336" rx="20" fill="#0d1622"/>
+  <rect x="2" y="2" width="1236" height="10" rx="5" fill="#ff6b35"/>
+  <g transform="translate(70,70)">
+    <rect x="0" y="0" width="200" height="200" rx="42" fill="#0a101b" stroke="#2dd4bf" stroke-width="4"/>
+    <polyline points="42,148 82,112 122,78 158,48" fill="none" stroke="#2dd4bf" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="42" cy="148" r="9" fill="#2dd4bf"/>
+    <circle cx="82" cy="112" r="9" fill="#2dd4bf"/>
+    <circle cx="122" cy="78" r="9" fill="#2dd4bf"/>
+    <circle cx="158" cy="48" r="9" fill="#ff6b35"/>
+    <line x1="158" y1="48" x2="158" y2="16" stroke="#ff6b35" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="158,16 182,24 158,32" fill="#ff6b35"/>
+  </g>
+  <text x="330" y="158" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="bold" fill="#f0f3f6">AI ROLLOUT PACK</text>
+  <text x="330" y="216" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#aeb9c4">Put an AI employee to work &#8212; with governance.</text>
+  <text x="330" y="268" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#2dd4bf">Templates &#183; governance checker &#183; zero dependencies</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="560" viewBox="0 0 1240 560">
+  <rect x="2" y="2" width="1236" height="556" rx="18" fill="#0d1420"/>
+  <text x="620" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#f0f3f6" text-anchor="middle">HOW A ROLLOUT MOVES</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <!-- row 1 -->
+    <rect x="30" y="84" width="370" height="130" rx="14" fill="#111a29" stroke="#ff6b35" stroke-width="3"/>
+    <text x="56" y="130" font-size="23" font-weight="bold" fill="#ff6b35">1 &#183; AUDIT</text>
+    <text x="56" y="164" font-size="17" fill="#aeb9c4">Score the lanes,</text>
+    <text x="56" y="190" font-size="17" fill="#aeb9c4">pick one pilot lane.</text>
+
+    <rect x="435" y="84" width="370" height="130" rx="14" fill="#111a29" stroke="#2dd4bf" stroke-width="3"/>
+    <text x="461" y="130" font-size="23" font-weight="bold" fill="#2dd4bf">2 &#183; ONE-PAGERS</text>
+    <text x="461" y="164" font-size="17" fill="#aeb9c4">What it does,</text>
+    <text x="461" y="190" font-size="17" fill="#aeb9c4">what it never does.</text>
+
+    <rect x="840" y="84" width="370" height="130" rx="14" fill="#111a29" stroke="#ff6b35" stroke-width="3"/>
+    <text x="866" y="130" font-size="23" font-weight="bold" fill="#ff6b35">3 &#183; GOVERNANCE GATE</text>
+    <text x="866" y="164" font-size="17" fill="#aeb9c4">Approvals, scrub list,</text>
+    <text x="866" y="190" font-size="17" fill="#aeb9c4">and the kill switch.</text>
+
+    <!-- row 2 (snake: 4 under 3, then right to left) -->
+    <rect x="840" y="304" width="370" height="130" rx="14" fill="#111a29" stroke="#2dd4bf" stroke-width="3"/>
+    <text x="866" y="350" font-size="23" font-weight="bold" fill="#2dd4bf">4 &#183; PILOT</text>
+    <text x="866" y="384" font-size="17" fill="#aeb9c4">One lane live,</text>
+    <text x="866" y="410" font-size="17" fill="#aeb9c4">a human approves sends.</text>
+
+    <rect x="435" y="304" width="370" height="130" rx="14" fill="#111a29" stroke="#ff6b35" stroke-width="3"/>
+    <text x="461" y="350" font-size="22" font-weight="bold" fill="#ff6b35">5 &#183; STAFF GUIDE + MEMORY</text>
+    <text x="461" y="384" font-size="17" fill="#aeb9c4">Staff know the rules;</text>
+    <text x="461" y="410" font-size="17" fill="#aeb9c4">the business owns the folder.</text>
+
+    <rect x="30" y="304" width="370" height="130" rx="14" fill="#111a29" stroke="#2dd4bf" stroke-width="3"/>
+    <text x="56" y="350" font-size="23" font-weight="bold" fill="#2dd4bf">6 &#183; LIVE</text>
+    <text x="56" y="384" font-size="17" fill="#aeb9c4">The checker watches</text>
+    <text x="56" y="410" font-size="17" fill="#aeb9c4">every change, weekly.</text>
+
+    <!-- arrows -->
+    <g stroke="#5b6b7f" stroke-width="4" fill="none">
+      <line x1="402" y1="149" x2="431" y2="149"/>
+      <line x1="807" y1="149" x2="836" y2="149"/>
+      <line x1="1025" y1="216" x2="1025" y2="298"/>
+      <line x1="836" y1="369" x2="807" y2="369"/>
+      <line x1="431" y1="369" x2="402" y2="369"/>
+    </g>
+    <g fill="#5b6b7f">
+      <polygon points="431,142 445,149 431,156"/>
+      <polygon points="836,142 850,149 836,156"/>
+      <polygon points="1018,298 1025,312 1032,298"/>
+      <polygon points="807,362 793,369 807,376"/>
+      <polygon points="402,362 388,369 402,376"/>
+    </g>
+  </g>
+
+  <text x="620" y="500" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#f0f3f6" text-anchor="middle">One pattern: find the lane, write the one-pager, gate it, pilot it, hand over the folder.</text>
+</svg>

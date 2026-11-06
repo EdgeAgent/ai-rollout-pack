@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-rollout-pack"
+version = "0.1.0"
+description = "Put an AI employee to work in a small business: rollout templates plus a governance checker CLI."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Kevin Doherty" }]
+keywords = ["ai", "agents", "rollout", "governance", "small-business", "templates"]
+dependencies = []
+
+[project.scripts]
+rollout-pack = "rollout_pack.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/EdgeAgent/ai-rollout-pack"
+
+[tool.setuptools.packages.find]
+include = ["rollout_pack*"]
+
+[tool.setuptools.package-data]
+rollout_pack = ["templates/*.md", "templates/*.json"]

@@ -1,0 +1,1 @@
+{"business":"__BUSINESS_NAME__","human_owner":"Owner","lanes":[{"approval_required_for":["send"],"human_owner":"Owner","name":"front-desk","owns":"First replies, booking help, and everyday questions","read_only":false,"tools":["draft","send"]}]}
